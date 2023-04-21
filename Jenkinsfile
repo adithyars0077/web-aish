@@ -15,7 +15,7 @@ stage('git clone ')
 {
 steps
 {
-sh 'git clone https://github.com/adithyars0077/web-aish.git -b master'
+sh 'git clone https://github.com/adithyars0077/web-aish.git -b aish'
 }
 }
 stage ('deploy')
